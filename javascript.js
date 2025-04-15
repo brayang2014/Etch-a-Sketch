@@ -11,3 +11,10 @@ let grid = (colLen, rowLen) => {
 }
 grid(16,16);
 
+let hover = document.getElementById('container');
+
+let draw = (event) => {
+    event.target.style.backgroundColor = "white";
+}
+
+hover.addEventListener("mouseover", draw);
