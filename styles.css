@@ -6,6 +6,7 @@ html,body{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -24,4 +25,8 @@ html,body{
     width: calc(100% / var(--col));
     box-sizing: border-box;
     background-color: black;
+}
+
+.buttons{
+    padding:10px;
 }
